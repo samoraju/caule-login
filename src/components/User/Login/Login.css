@@ -78,3 +78,7 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+input {
+  background-color: transparent;
+}
