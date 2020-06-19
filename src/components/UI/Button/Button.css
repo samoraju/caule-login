@@ -1,0 +1,35 @@
+.ui-button {
+  padding: 9px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: color 200ms;
+  transition-property: background-color, color;
+  border: 0;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ui-button--bordered-green {
+  padding: 7px 10px;
+  border-color: #fff;
+  color: #fff;
+  border: 2px solid;
+}
+
+.ui-button--bordered-green:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+.ui-button--contained-green {
+  background-color: #000;
+  color: #fff;
+}
+
+.ui-button--contained-green:hover {
+  background-color: #717171;
+  border-color: #717171;
+  color: #fff;
+}
